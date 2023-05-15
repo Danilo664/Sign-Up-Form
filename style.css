@@ -1,3 +1,27 @@
+@font-face {
+    font-family: MyFont;
+    src: url(font/Norse-Bold.otf);
+}
+
 body{
-    background-color: purple;
+    margin: 0px;
+    height: 100vh;
+    font-family: sans-serif
+}
+
+#leftHalf{
+    display:flex;
+    height: 100vh;
+    float: left;
+    justify-content: center;
+}
+
+#plantByText{
+    color: white;
+    position: absolute;
+    align-self:flex-end;
+}
+
+a{
+    color: white;
 }
