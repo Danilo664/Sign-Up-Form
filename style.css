@@ -6,22 +6,49 @@
 body{
     margin: 0px;
     height: 100vh;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 #leftHalf{
     display:flex;
     height: 100vh;
     float: left;
-    justify-content: center;
 }
 
 #plantByText{
     color: white;
     position: absolute;
     align-self:flex-end;
+
+    padding: 0% 7.45rem;
 }
 
 a{
     color: white;
+}
+
+#odinImgTxt{
+    position: absolute;
+
+    color: white;
+    font-family:MyFont;
+    font-size: 6.42rem;
+
+    display: flex;
+    align-items: center;
+    margin-top: 25vh;
+    background-color: rgb(0,0,0, 0.5);
+    padding: 0.4rem 7rem;
+}
+
+#odinsFace{
+    height: 1.3em;
+
+}
+#odinText{
+    margin:0px;
+}
+
+#plantPhoto{
+    width: 30rem;
 }
